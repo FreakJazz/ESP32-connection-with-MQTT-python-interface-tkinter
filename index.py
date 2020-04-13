@@ -23,12 +23,12 @@ class App(ttk.Frame):
         self.password2 = StringVar()
         self.topic2 = StringVar()
         self.wind = window
-        self.colorfondo1 = "#E0F7FA"              # Color fondo#0fbcf9
-        self.colorfondo = "#26C6DA"                # Color Frame
-        self.colorfondo2 = "#4DD0E1"                # Color Frame
-        self.colorfondo3 = "#80DEDA"                # Color Frame
+        self.colorfondo1 = "#0B3A80"              # Color fondo#0fbcf9
+        self.colorfondo = "#1157C2"                # Color Frame
+        self.colorfondo2 = "#1568E6"                # Color Frame
+        self.colorfondo3 = "#1774FF"                # Color Frame
         self.colorboton = "#B2EBF2"                # Color Frame
-        self.colorletras = "#006064"               # Color words 1c3836
+        self.colorletras = "#061D40"               # Color words 1c3836
         #self.wind.geometry('400x450')              # Window Lenght
         self.wind.title("Light Control")           # Window Title
         self.wind.configure(background = self.colorfondo1)
@@ -130,7 +130,7 @@ class App(ttk.Frame):
         self.password = self.password2.get()
         self.topic = self.topic2.get()
 
-        if self.username == "" and self.password == "" and self.host == "" and self.port == "" and self.topic == "":
+        if self.username == "" or self.password == "" or self.host == "" or self.port == "" or self.topic == "":
             messagebox.showwarning("Warning", "You must enter all the required data")
         # elif self.username == "jazz23" and self.password == "12345":
             # self.lblconnect["text"]="SOME DATA ENTERED IS NOT CORRECT \n TRY AGAIN"
