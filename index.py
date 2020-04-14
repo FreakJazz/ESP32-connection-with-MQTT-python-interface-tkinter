@@ -103,16 +103,21 @@ class App(ttk.Frame):
 
         Label(self.frameesp, text = 'Previous: ',font=("Arial", 12), bg=self.colorfondo3, fg=self.colorletras).grid(row = 15, column = 0, pady = 3,padx=20)
         
-        self.lbl_prev_state = Label(self.frameesp, text = "",font=("Arial", 12), bg=self.colorfondo3, fg=self.colorletras)
+        self.lbl_prev_state = Label(self.frameesp, text = "                           ",font=("Arial", 12), bg=self.colorfondo3, fg=self.colorletras)
         self.lbl_prev_state.grid(row = 15, column = 1, pady = 3,padx=20)
-        self.lbl_prev_date = Label(self.frameesp, text = "",font=("Arial", 12), bg=self.colorfondo3, fg=self.colorletras)
+        self.lbl_prev_date = Label(self.frameesp, text = "                            ",font=("Arial", 12), bg=self.colorfondo3, fg=self.colorletras)
         self.lbl_prev_date.grid(row = 15, column = 2, pady = 3,padx=20)
-
+        
+        Label(self.frameesp, text = 'Last Period ON: ',font=("Arial", 12), bg=self.colorfondo3, fg=self.colorletras).grid(row = 16, column = 0, pady = 3,padx=20)
+        self.lbl_timedata = Label(self.frameesp, text = "",font=("Arial", 12), bg=self.colorfondo3, fg=self.colorletras)
+        self.lbl_timedata.grid(row = 16, column = 2, pady = 3,padx=20)
+        
         # Quit Button
         self.btn_quit = Button(self.wind, text="Quit", command=self.quit, font=("Arial Bold", 14),bg=self.colorboton)#.grid(row = 5, column = 0)
-        self.btn_quit.grid(row = 14, column = 7, pady = 3,padx=20)
+        self.btn_quit.grid(row = 17, column = 7, pady = 3,padx=20)
         self.broker.set("broker.mqttdashboard.com")
         self.port2.set(1883)
+
         # Config MQTT
         #self.broker.set("broker.mqttdashboard.com")
         #self.port 1883;
