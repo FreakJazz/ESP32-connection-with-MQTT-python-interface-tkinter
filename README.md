@@ -1,6 +1,6 @@
 # ESP32-connection-with-MQTT-python-interface-tkinter
-![Topic Configuration](https://www.hivemq.com/hiveMQ.jpg/)
-![Topic Configuration](https://www.hivemq.com/publicMQTT.jpg/)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/hiveMQ.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/publicMQTT.JPG)
 
 ## Description
 
@@ -40,7 +40,7 @@ After that, We need to open a Broker HIVEMQ
 [Broker Address](https://www.hivemq.com/public-mqtt-broker/)
 
 The following parameters must be considered to establish the connection
-![Topic Configuration](https://www.hivemq.com/broker.jpg/)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/broker.JPG/)
 - **Host:**     broker.mqttdashboard.com
 - **Port:**     1883 (Web Port)
 - **ClientID:** This parameter is given by the user
@@ -199,43 +199,43 @@ Connection Function
 
 ### Desktop App
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/Interface.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/Interface.JPG)
 
 ### MQTT Config
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/MQTT_Connection.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/MQTT_Connection.JPG)
 
 ### Python Interface Configuration MQTT
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/python_connection.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/python_connection.JPG)
 
 ### Topic
 
 MQTT 
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/topic_message.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/topic_message.JPG)
 
 Arduino
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/arduino_topic.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/arduino_topic.JPG)
 
 ### Interface Works
 
 Turn light ON
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/Interface.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/Interface.JPG)
 
 The light is in GPIO 2 OF ESP32
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/ESP32_light_ON.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/ESP32_light_ON.jpeg)
 
 Turn light OFF
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/Interfaceoff.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/Interfaceoff.JPG)
 
 The light is in GPIO 2 OF ESP32
 
-![Topic Configuration](https://github.com/FreakJazz/Connection-MQTT-with-Python/blob/master/ESP32_light_OFF.JPG)
+![Topic Configuration](https://github.com/FreakJazz/ESP32-connection-with-MQTT-python-interface-tkinter/blob/master/images/ESP32_light_OFF.jpeg)
 
 ## Contributing
 
